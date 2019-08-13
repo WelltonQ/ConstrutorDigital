@@ -11,8 +11,10 @@
     <style>
         body{
             background-image: url("assets/images/grupo.png");
-            max-width: 100%;
-            height: auto;
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: #21566E;
         }
     </style>
 </head>
@@ -24,21 +26,23 @@
                 <a href="./"><img src="assets/images/Obrasnet_horizontal.png" alt="logo" id="logo"></a>
             </div>
             <div class="navmenu">
-                <nav>
-                    <ul>
-                        <li class="active"><a href="./">Home</a></li>
-                        <li><a href="#">Planos</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><button href="#" class="btn btn-outline-light btn-lg" id="entrar">Entrar</button></li>
-                        <li><button href="#" class="btn btn-warning btn-lg" id="cadastrar">Cadastre-se</button></li>
-                    </ul>
-                </nav>
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="./">Home</a></li>
+                            <li><a href="#">Planos</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><button href="#" class="btn btn-outline-light btn-lg" id="entrar">Entrar</button></li>
+                            <li><button href="#" class="btn btn-warning btn-lg" id="cadastrar">Cadastre-se</button></li>
+                        </ul>
+                    </nav>
             </div>
         </div>
     </header>
 
-
+    <section>
+        <h1>A sua ferramenta online para a Gestão Financeira e de Projeto!</h1>
+    </section>
 
     <!--
     <div class="container">
